@@ -1,34 +1,25 @@
----
-output: github_document
----
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
-
-```{r, include = FALSE}
-knitr::opts_chunk$set(
-  collapse = TRUE,
-  comment = "#>",
-  fig.path = "man/figures/README-",
-  out.width = "100%"
-)
-```
 
 # testrepo4
 
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of testrepo4 is to say "hello world"
+The goal of testrepo4 is to say “hello world”
 
-``` {r}
+``` r
 devtools::install_github("nzh-zhou/testrepo4")
+#> Skipping install of 'testrepo4' from a github remote, the SHA1 (660bd02e) has not changed since last install.
+#>   Use `force = TRUE` to force installation
 ```
+
 ## Example
 
 This is a basic example which shows you how to solve a common problem:
 
-```{r example}
+``` r
 library(testrepo4)
 hello_world()
+#> [1] "hello world"
 ```
-
